@@ -5,6 +5,7 @@ version = open('collective/js/jqsmartTruncation/version.txt').read().strip()
 maintainer = 'Elio Schmutz'
 
 setup(name='collective.js.jqsmartTruncation',
+      maintainer=maintainer,
       version=version,
       description="truncate too long text" + \
           ' (Maintainer %s)' % maintainer,
@@ -19,7 +20,7 @@ setup(name='collective.js.jqsmartTruncation',
       author='%s, 4teamwork GmbH' % maintainer,
       author_email='mailto:info@4teamwork.ch',
       license='GPL2',
-      url='',
+      url='http://plugins.jquery.com/project/smarttruncation',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.js'],
       include_package_data=True,
