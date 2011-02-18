@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+	xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.js.jqsmartTruncation">
+
+  <five:registerPackage package="." />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.jqsmartTruncation"
+      directory="profiles/default"
+      description="JQuery smartTruncation Plugin"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+	  />
+
+  <browser:resource
+      name="jquery.smartTruncation.js"
+      file="jquery.smartTruncation.js" />
+
+</configure>
