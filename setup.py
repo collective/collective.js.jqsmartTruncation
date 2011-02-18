@@ -5,11 +5,10 @@ version = open('collective/js/jqsmartTruncation/version.txt').read().strip()
 maintainer = 'Elio Schmutz'
 
 setup(name='collective.js.jqsmartTruncation',
-      maintainer=maintainer,
       version=version,
       description="truncate too long text",
       long_description=open("README.txt").read() + "\n" +
-                         open(os.path.join("docs", "HISTORY.txt")).read(),
+                    open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
