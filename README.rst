@@ -1,7 +1,7 @@
 collective.js.jqsmartTruncation
 ===============================
 
-Truncate text in to the width of his container with the JQuery plugin smart Truncation
+Truncate text into the width of his container with the JQuery plugin smart Truncation
 
 Usage
 -----
@@ -16,7 +16,11 @@ Usage
 
 - Install the generic setup profile of the package
 
-- use jq('span.title a').smartTruncation(); in your own package to truncate the text in the element
+- use ``smartTruncation()`` in your own package to truncate the text in the element:
+
+::
+
+    jq('span.title a').smartTruncation();
 
 Links
 =====
