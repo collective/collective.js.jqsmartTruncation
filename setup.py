@@ -1,15 +1,16 @@
 from setuptools import setup, find_packages
 import os
 
-version = open('collective/js/jqsmartTruncation/version.txt').read().strip()
+version = '1.0a3dev'
 maintainer = 'Elio Schmutz'
 
 setup(name='collective.js.jqsmartTruncation',
       version=version,
-      description="truncate too long text",
-      long_description=open("README.txt").read() + "\n" +
+      description="This Package provides smart Truncation.",
+      long_description=open("README.rst").read() + "\n" +
                     open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
+        
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
@@ -18,7 +19,7 @@ setup(name='collective.js.jqsmartTruncation',
       author_email='mailto:info@4teamwork.ch',
       maintainer=maintainer,
       license='GPL2',
-      url='http://plugins.jquery.com/project/smarttruncation',
+      url='https://github.com/collective/collective.js.jqsmartTruncation',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.js'],
       include_package_data=True,
