@@ -5,7 +5,8 @@ Changelog
 1.0 (Unreleased)
 ----------------
 
-- Nothing changed yet.
+- Updated Readme.
+  [mathias.leimgruber]
 
 
 1.0a2 (2011-02-18)

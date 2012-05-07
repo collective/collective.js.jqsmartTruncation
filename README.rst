@@ -25,6 +25,7 @@ Usage
 Links
 =====
 
+- ``jQuery.smarttruncation``: http://polarblau.github.com/smarttruncation/
 - Main github project repository: https://github.com/collective/collective.js.jqsmartTruncation
 - Issue tracker: https://github.com/collective/collective.js.jqsmartTruncation/issues
 - Package on pypi: http://pypi.python.org/pypi/collective.js.jqsmartTruncation
@@ -34,4 +35,4 @@ Links
 Maintainer
 ==========
 
-This package is produced and maintained by `4teamwork <http://www.4teamwork.ch/>`_ company.
+This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_ company.
